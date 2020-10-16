@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dhyanchand",
+  "description": "How long have I been on this page?",
+  "version": "1.7",
+  "author": "prvdaga@gmail.com",
+
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16": "timer16.png",
+    "32": "timer32.png",
+    "128": "timer128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "timer19.png",
+      "38": "timer38.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "common.js",
+      "background.js"
+      ],
+    "persistent": true
+  },
+  "options_page": "options.html"
+}
