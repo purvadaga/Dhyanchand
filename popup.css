@@ -1,4 +1,7 @@
+
 .outline{
+
+
     color:#ad2121;
     border-radius: 25px;
     background:#ff8c92;
@@ -7,6 +10,8 @@
     height: 150px;
 }
 .rcorners1 {
+
+
      border-radius: 20px; 
     background: #b0f588;
     /* padding: 20px; */
@@ -15,9 +20,29 @@
   }
   
   .rcorners3 {
+
+
     border-radius: 80px; 
     background: #ff57da;
     /* padding: 20px; */
     width: 200px;
     height: 20px;
   }
+  .header {
+    font-family: 'Sansita Swashed', cursive;
+
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 2px solid ;
+    display: flex;
+    height: 18%;
+}
+.footer {
+  font-family: 'Sansita Swashed', cursive;
+
+  align-items: center;
+  margin-top: 5px;
+  border-top: 2px solid ;
+  display: flex;
+  height: 18%;
+}
