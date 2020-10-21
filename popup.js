@@ -27,11 +27,10 @@
 
      var a = document.createElement("a");
      a.textContent = hist[i][1];
-     a.classList.add("rcorners3");
      a.setAttribute("href", hist[i][1]);
-     a.classList.add("rcorners2");
      a.setAttribute("target", "_blank");
      r.insertCell(-1).appendChild(a);
+
       a.classList.add("rcorners1");
    }
    r.classList.add("rcorners1");

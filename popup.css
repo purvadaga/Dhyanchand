@@ -1,29 +1,15 @@
 .outline{
     color:#ad2121;
     border-radius: 25px;
-    background: #d174aa;
+    background: #2f21ad;
     padding: 20px;
     width: 200px;
     height: 150px;
 }
 .rcorners1 {
-    /* border-radius: 20px; */
-    background: #b0f588;
-    /* padding: 20px; */
+    border-radius: 20px;
+    background: #73AD21;
+    padding: 20px;
     width: 200px;
-    height: 20px;
-  }
-   /* .rcorners2 {
-    /* border-radius: 20px; */
-    /* background: #6bb7e9; */
-    /* padding: 20px; */
-    /* width: 200px; */
-    /* height: 20px; */
-  /* }  */ 
-  .rcorners3 {
-    border-radius: 20px; 
-    background: #083a7a46;
-    /* padding: 20px; */
-    width: 200px;
-    height: 20px;
+    height: 150px;
   }
