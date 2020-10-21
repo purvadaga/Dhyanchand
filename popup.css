@@ -1,10 +1,10 @@
 
 .outline{
-
-
+/* background-image: linear-gradient(#c1d5ec, #75d6ff); */
+background: #005c99;
     color:#ad2121;
     border-radius: 25px;
-    background:#ff8c92;
+    /* background:#ff8c92; */
     padding: 20px;
     width: 200px;
     height: 150px;
@@ -12,7 +12,7 @@
 .rcorners1 {
 
 
-     border-radius: 20px; 
+     /* border-radius: 20px;  */
     background: #b0f588;
     /* padding: 20px; */
     width: 200px;
@@ -22,20 +22,19 @@
   .rcorners3 {
 
 
-    border-radius: 80px; 
-    background: #ff57da;
-    /* padding: 20px; */
+    /* border-radius: 80px;  */
+/* background-image: linear-gradient( to right, #68e3cf, #5cceff); */
+background-image: linear-gradient( to right, #8ef6e4, #80d9ff);
     width: 200px;
     height: 20px;
   }
   .header {
     font-family: 'Sansita Swashed', cursive;
 
-    align-items: center;
     margin-bottom: 5px;
-    border-bottom: 2px solid ;
+    border-bottom: 1px solid gray; 
     display: flex;
-    height: 18%;
+    height: 15%;
 }
 .footer {
   font-family: 'Sansita Swashed', cursive;
@@ -44,5 +43,8 @@
   margin-top: 5px;
   border-top: 2px solid ;
   display: flex;
-  height: 18%;
+  height: 13%;
+}
+.fontt{
+  margin-bottom: 5px;
 }
